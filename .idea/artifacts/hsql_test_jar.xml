@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="hsql-test:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/hsql_test_jar</output-path>
+    <root id="archive" name="hsql-test.jar">
+      <element id="module-output" name="hsql-test" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../hsqldb.jar" path-in-jar="/" />
+      <element id="library" level="module" name="hsqldb.jar" module-name="hsql-test" />
+      <element id="library" level="module" name="sqltool.jar" module-name="hsql-test" />
+      <element id="library" level="module" name="/home/amal/Bureau/Cours/Intégration des systèmes d'information/teaching-isi-projet-master/hsqldb.jar" module-name="hsql-test" />
+    </root>
+  </artifact>
+</component>
