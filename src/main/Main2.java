@@ -104,7 +104,7 @@ public class Main2 {
                     wrapper.getColumns().get(7).getItems().get(j) + ", " +
                     "'" +wrapper.getColumns().get(8).getItems().get(j) + "'" +
                     ")";
-//            System.out.println(sql); // verification
+            System.out.println(sql); // verification
             stmt.executeUpdate(sql);
         }
 
